@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="c0bf33aa-00ee-4405-b8eb-e8a1db65cad7" Publisher="CN=snowc_000" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>TestApp</DisplayName>
+    <PublisherDisplayName>snowc_000</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="TestApp.App">
+      <VisualElements DisplayName="TestApp" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="TestApp" ForegroundText="light" BackgroundColor="#464646" ToastCapable="true">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>
